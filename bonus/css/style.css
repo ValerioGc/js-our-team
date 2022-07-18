@@ -9,12 +9,13 @@
 /* Corpo Pagina */
 body {
     height: 100vh;
-    text-align: center;
     background-image: linear-gradient(to left top, #00ff5d, #00f8ad, #00ebe6, #00daff, #00c5ff, #38b8fe, #59aaf9, #759bef, #6a90f4, #6385f7, #5f79fa, #5f6cfb);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
 /* Header */
 header {
-    padding: 10px 0 20px;
+    padding: 10px 0 15px;
     width: 60%;
 }
 h1 {
