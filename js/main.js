@@ -31,7 +31,22 @@ const teamInfo =    [
                         }
                     ];
 
-// Array oggetti
+
+
+// Aggiunta oggetti al DOM
+let domP = document.getElementById('message');
+let list = document.createElement('p');
+for (let key in teamInfo) {
+    list.innerHTML += 'Name:' + ' ' + teamInfo[key].name;
+    list.innerHTML += '<br>';
+    list.innerHTML += 'Role:' + ' ' + teamInfo[key].role;
+    list.innerHTML += '<br>';
+    list.innerHTML += 'Picture:' + ' ' + teamInfo[key].pict;
+    list.innerHTML += '<br>';
+    list.innerHTML += '---------------------------------------------- <br>';
+}
+domP.append(list);
+///////////  Array oggetti ///////////////
 for (let i = 0; i < teamInfo.length; i++) {
     console.log(teamInfo[i]);
 }
