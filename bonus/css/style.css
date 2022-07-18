@@ -3,16 +3,18 @@
     margin: 0;
     padding: 0;
 }
-/* 
-    Corpo Pagina 
-*/
-body {
-    text-align: center;
-    background-color: rgb(200, 206, 208);
+.m-auto {
+    margin: auto;
 }
+/* Corpo Pagina */
+body {
+    height: 100vh;
+    text-align: center;
+    background-image: linear-gradient(to left top, #00ff5d, #00f8ad, #00ebe6, #00daff, #00c5ff, #38b8fe, #59aaf9, #759bef, #6a90f4, #6385f7, #5f79fa, #5f6cfb);
+}
+/* Header */
 header {
-
-    margin: 30px auto 25px;
+    padding: 10px 0 20px;
     width: 60%;
 }
 h1 {
@@ -22,26 +24,24 @@ h1 {
 #container-cards {
     width: 60%;
     height: 80vh;
-    margin: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-
 }
 .card {
     width: calc(100% / 3 - 70px);
     height: calc(50% - 15px);
     border-radius: 10px;
+    background-color: #ffffffc9;
     box-shadow: 3px 3px 7px #000;
 }
 img {
     width: 100%;
     height: 75%;
-    margin: auto;
-    border-top-left-radius:10px;
-    border-top-right-radius:10px;
-    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: fill;
 }
 h2 {
     font-size: 1.2rem;

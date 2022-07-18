@@ -30,6 +30,8 @@ const teamInfo =    [
                             'pict':'barbara-ramos-graphic-designer.jpg'
                         }
                     ];
+
+
 /*
 // Aggiunta oggetti al DOM
 let domP = document.querySelector('body');
@@ -45,6 +47,7 @@ for (let key in teamInfo) {
 }
 domP.append(list);
 */
+
 ///////////  Array oggetti ///////////////
 for (let i = 0; i < teamInfo.length; i++) {
     console.log(teamInfo[i]);
@@ -56,8 +59,6 @@ for (let key in teamInfo) {
     console.log('Picture:' + ' ' + teamInfo[key].pict);
     console.log('-----------------------------------');
 }
-
-
 
 // Creazione Dinamica cards
 for (let i = 0; i < teamInfo.length; i++) {
