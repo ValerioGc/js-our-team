@@ -34,12 +34,14 @@ const teamInfo =    [
 // Aggiunta oggetti al DOM
 let domP = document.getElementById('message');
 let list = document.createElement('p');
-for (let key in teamInfo) {
-    list.innerHTML += 'Name:' + ' ' + teamInfo[key].name;
+
+for (let i = 0; i < teamInfo.length; i++) {
+// for (let key in teamInfo) {
+    list.innerHTML += 'Name:' + ' ' + teamInfo[i]/*[key]*/.name;
     list.innerHTML += '<br>';
-    list.innerHTML += 'Role:' + ' ' + teamInfo[key].role;
+    list.innerHTML += 'Role:' + ' ' + teamInfo[i]/*[key]*/.role;
     list.innerHTML += '<br>';
-    list.innerHTML += 'Picture:' + ' ' + teamInfo[key].pict;
+    list.innerHTML += 'Picture:' + ' ' + teamInfo[i]/*[key]*/.pict;
     list.innerHTML += '<br>';
     list.innerHTML += '---------------------------------------------- <br>';
 }
