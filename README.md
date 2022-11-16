@@ -17,4 +17,4 @@
 
 ## *_Preview:_*
 
-![Preview our team](/preview/preview-our-team.gif)
+![Preview our team](/preview/preview-our-team.png)
