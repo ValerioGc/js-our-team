@@ -1,7 +1,3 @@
-# js-our-team
-Replication web-page "our team"
-
-
 
 # **js-our-team**    <img height="25" align="right" src="https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg">
 
